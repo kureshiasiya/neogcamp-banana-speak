@@ -5,8 +5,8 @@ var outputDiv = document.querySelector("#output");
 //var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yodo.json"
 var serverURL = "	https://api.funtranslations.com/translate/minion.json";
 
-function getTranslationURL(text) {
-  return (server = "?" + "text=" + text);
+function getTranslationURL(input) {
+  return (server = "?" + "text=" + input);
 }
 function errorHandler(error) {
   console.log("error occured", error);
